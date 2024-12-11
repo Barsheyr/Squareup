@@ -4,6 +4,10 @@ import whatclientsay3 from "../src/assets/images/whatourclient3.png";
 import whatclientsay4 from "../src/assets/images/whatourclient4.png";
 import whatclientsay5 from "../src/assets/images/whatourclient5.png";
 import whatclientsay6 from "../src/assets/images/whatourclient6.png";
+import serviceicon1 from "../src/assets/images/serviceicon1.svg";
+import serviceicon2 from "../src/assets/images/serviceicon2.svg";
+import serviceicon3 from "../src/assets/images/serviceicon3.svg";
+import serviceicon4 from "../src/assets/images/serviceicon4.svg";
 
 export const whatClientSays = [
   {
@@ -129,5 +133,80 @@ export const faqs = [
     Header: "Can you help with website or app maintenance and updates?",
     description:
       "SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.",
+  },
+];
+
+export const Services = [
+  {
+    id: "1",
+    Header: "Design",
+    paragraph:
+      "At Squareup, our design team is passionate about creating stunning, user-centric designs that captivate your audience and elevate your brand. We believe that great design is not just about aesthetics; it's about creating seamless and intuitive user experiences. ",
+    includes: "Our design services includes:",
+    Text1: "User Experience (UX) Design",
+    Text2: "User Experience (UI) Design",
+    Text3: "Branding and Identity",
+    IconText1: "User Research and Persona Development",
+    IconText2: "Information Architecture and Wireframing",
+    IconText3: "Interactive Prototyping and User Testing",
+    IconText4: "UI Design and Visual Branding",
+    IconText5: "Intuitive and Visually Appealing Interface Design ",
+    IconText6: "Custom Iconography and Illustration",
+    IconText7: "Topography and Color Palette Selection",
+    IconText8: "Responsive Design and Various Devices",
+    IconText9: "Logo Design and Visually Identity Development ",
+    IconText10: "Brand Strategy and Positioning ",
+    IconText11: "Brand Guidelines and Style Guides",
+    IconText12: "Marketing Collateral Design (Brochures, Business, Card, etc",
+    img1: serviceicon1,
+    img2: serviceicon2,
+    img3: serviceicon3,
+    img4: serviceicon4,
+  },
+  {
+    id: "2",
+    Header: "Engineering",
+    paragraph:
+      "Our engineering team combines technical expertise with a passion for innovation to build robust and scalable digital solutions. We leverage the latest technologies and best practices to deliver high-performance applications tailored to your specific needs. ",
+    includes: "Our engineering services includes:",
+    Text1: "Web Development",
+    Text2: "Mobile App Development",
+    Text3: "Custom Software Development",
+    IconText1: "Front-End Development (HTML, CSS, JavaScript)",
+    IconText2: "Back-End Development (PHP, Python, Ruby)",
+    IconText3:
+      "Content Management System (CMS) Development (WordPress, Drupal)",
+    IconText4: "E-Commerce Platform Development (Magento, Shopify)",
+    IconText5: "Native iOS and Android App Development",
+    IconText6: "Cross-Platform App Development (React Native, Flutter)",
+    IconText7: "App Prototyping and UI/UX Design Integration",
+    IconText8: "App Testing, Deployment, and Maintenance",
+    IconText9: "Enterprise Software Development",
+    IconText10: "Custom Web Application Development",
+    IconText11: "Integration with Third-Party APIs and Systems",
+    IconText12: "Legacy System Modernization and Migration",
+  },
+  {
+    id: "3",
+    Header: "Project Management",
+    paragraph:
+      "Our engineering team combines technical expertise with a passion for innovation to build robust and scalable digital solutions. We leverage the latest technologies and best practices to deliver high-performance applications tailored to your specific needs. ",
+    includes: "Our engineering services includes:",
+    Text1: "Web Development",
+    Text2: "Mobile App Development",
+    Text3: "Custom Software Development",
+    IconText1: "Front-End Development (HTML, CSS, JavaScript)",
+    IconText2: "Back-End Development (PHP, Python, Ruby)",
+    IconText3:
+      "Content Management System (CMS) Development (WordPress, Drupal)",
+    IconText4: "E-Commerce Platform Development (Magento, Shopify)",
+    IconText5: "Native iOS and Android App Development",
+    IconText6: "Cross-Platform App Development (React Native, Flutter)",
+    IconText7: "App Prototyping and UI/UX Design Integration",
+    IconText8: "App Testing, Deployment, and Maintenance",
+    IconText9: "Enterprise Software Development",
+    IconText10: "Custom Web Application Development",
+    IconText11: "Integration with Third-Party APIs and Systems",
+    IconText12: "Legacy System Modernization and Migration",
   },
 ];
