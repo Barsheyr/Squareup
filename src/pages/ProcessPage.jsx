@@ -1,7 +1,13 @@
 import React from "react";
+import { ProcessBody, ProcessHeader } from "../components";
 
 const ProcessPage = () => {
-  return <div>ProcessPage</div>;
+  return (
+    <div>
+      <ProcessHeader />
+      <ProcessBody />
+    </div>
+  );
 };
 
 export default ProcessPage;

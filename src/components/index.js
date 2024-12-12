@@ -8,3 +8,5 @@ export { default as Footer } from "./Footer";
 export { default as ErrorElement } from "./ErrorElement";
 export { default as Navbar } from "./Navigation/Navbar";
 export { default as MobileNav } from "./Navigation/MobileNav";
+export { default as ProcessHeader } from "./Process/ProcessHeader";
+export { default as ProcessBody } from "./Process/ProcessBody";

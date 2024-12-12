@@ -210,3 +210,48 @@ export const Services = [
     IconText12: "Legacy System Modernization and Migration",
   },
 ];
+
+export const Processes = [
+  {
+    id: "1",
+    Header: "At SquareUp",
+    paragraph:
+      "At Squareup, our design team is passionate about creating stunning, user-centric designs that captivate your audience and elevate your brand. We believe that great design is not just about aesthetics; it's about creating seamless and intuitive user experiences. ",
+    includes: "Here's an overview of our typical process:",
+    Text1: "User Experience (UX) Design",
+    Text2: "User Experience (UI) Design",
+    Text3: "Branding and Identity",
+    num: "1",
+    numHead: "Discovery",
+    numParagraph:
+      " We begin by thoroughly understanding your business goals, target audience, and project requirements. We conduct in-depth research to gather insights and define project objectives, allowing us to develop a tailored strategy.",
+    num: "2",
+    numHead: "Planning and Strategy",
+    numParagraph:
+      " We begin by thoroughly understanding your business goals, target audience, and project requirements. We conduct in-depth research to gather insights and define project objectives, allowing us to develop a tailored strategy.",
+    num: "3",
+    numHead: "Design",
+    numParagraph:
+      " We begin by thoroughly understanding your business goals, target audience, and project requirements. We conduct in-depth research to gather insights and define project objectives, allowing us to develop a tailored strategy.",
+    num: "4",
+    numHead: "Development",
+    numParagraph:
+      " We begin by thoroughly understanding your business goals, target audience, and project requirements. We conduct in-depth research to gather insights and define project objectives, allowing us to develop a tailored strategy.",
+    num: "5",
+    numHead: "Testing and Quality Assurance",
+    numParagraph:
+      " We begin by thoroughly understanding your business goals, target audience, and project requirements. We conduct in-depth research to gather insights and define project objectives, allowing us to develop a tailored strategy.",
+    num: "6",
+    numHead: "Development and Launch",
+    numParagraph:
+      " We begin by thoroughly understanding your business goals, target audience, and project requirements. We conduct in-depth research to gather insights and define project objectives, allowing us to develop a tailored strategy.",
+    num: "7",
+    numHead: "Post Launch Support",
+    numParagraph:
+      " We begin by thoroughly understanding your business goals, target audience, and project requirements. We conduct in-depth research to gather insights and define project objectives, allowing us to develop a tailored strategy.",
+    num: "8",
+    numHead: "Continuous Improvement  ",
+    numParagraph:
+      " We begin by thoroughly understanding your business goals, target audience, and project requirements. We conduct in-depth research to gather insights and define project objectives, allowing us to develop a tailored strategy.",
+  },
+];
