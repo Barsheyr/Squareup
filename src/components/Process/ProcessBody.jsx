@@ -1,5 +1,5 @@
-import React from "react";
-import { Processes } from "../../data";
+import React, { useState } from "react";
+import { Processes, processNums } from "../../data";
 
 const ProcessBody = () => {
   return (
@@ -15,8 +15,27 @@ const ProcessBody = () => {
                   <p> {paragraph} </p>
                 </div>
 
-                <div className="mt-10 bg-grey20 border border-gray-800 w-[30%] p-3">
+                <div className="mt-10 bg-grey20 border border-gray-800 lg:w-[30%] p-3 rounded-md">
                   <p className="">{includes}</p>
+                </div>
+
+                <div className="grid lg:grid-cols-2">
+                  {processNums.map((processNum, index) => {
+                    const { num, numHead, numParagraph } = processNum;
+                    return (
+                      <div key={index}>
+                        <div className="mt-10">
+                          <div className="flex items-end space-x-5">
+                            <p className="text-9xl text-green80 font-semibold">
+                              {num}
+                            </p>
+                            <h1 className="text-2xl"> {numHead} </h1>
+                          </div>
+                          <h2 className="mt-10"> {numParagraph} </h2>
+                        </div>
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             </div>

@@ -221,34 +221,54 @@ export const Processes = [
     Text1: "User Experience (UX) Design",
     Text2: "User Experience (UI) Design",
     Text3: "Branding and Identity",
+  },
+];
+
+export const processNums = [
+  {
+    id: "1",
     num: "1",
     numHead: "Discovery",
     numParagraph:
       " We begin by thoroughly understanding your business goals, target audience, and project requirements. We conduct in-depth research to gather insights and define project objectives, allowing us to develop a tailored strategy.",
+  },
+  {
     num: "2",
     numHead: "Planning and Strategy",
     numParagraph:
       " We begin by thoroughly understanding your business goals, target audience, and project requirements. We conduct in-depth research to gather insights and define project objectives, allowing us to develop a tailored strategy.",
+  },
+  {
     num: "3",
-    numHead: "Design",
+    numHead: "Strategy",
     numParagraph:
       " We begin by thoroughly understanding your business goals, target audience, and project requirements. We conduct in-depth research to gather insights and define project objectives, allowing us to develop a tailored strategy.",
+  },
+  {
     num: "4",
     numHead: "Development",
     numParagraph:
       " We begin by thoroughly understanding your business goals, target audience, and project requirements. We conduct in-depth research to gather insights and define project objectives, allowing us to develop a tailored strategy.",
+  },
+  {
     num: "5",
     numHead: "Testing and Quality Assurance",
     numParagraph:
       " We begin by thoroughly understanding your business goals, target audience, and project requirements. We conduct in-depth research to gather insights and define project objectives, allowing us to develop a tailored strategy.",
+  },
+  {
     num: "6",
     numHead: "Development and Launch",
     numParagraph:
       " We begin by thoroughly understanding your business goals, target audience, and project requirements. We conduct in-depth research to gather insights and define project objectives, allowing us to develop a tailored strategy.",
+  },
+  {
     num: "7",
     numHead: "Post Launch Support",
     numParagraph:
       " We begin by thoroughly understanding your business goals, target audience, and project requirements. We conduct in-depth research to gather insights and define project objectives, allowing us to develop a tailored strategy.",
+  },
+  {
     num: "8",
     numHead: "Continuous Improvement  ",
     numParagraph:
