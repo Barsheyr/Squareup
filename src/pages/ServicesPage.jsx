@@ -137,7 +137,7 @@ const ServicesPage = () => {
         </div>
       </div>
 
-      <div className="py-20">
+      <div className="py-20 bg-grey10">
         <div className="max-w-5xl mx-auto px-20 flex flex-col text-center items-center space-y-10">
           <NavLink to="/" className="">
             <img src={Logo} alt="Logo" />

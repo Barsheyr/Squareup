@@ -12,6 +12,7 @@ import ChooseOne from "../images/choose1.svg";
 import ChooseTwo from "../images/choose2.svg";
 import ChooseThree from "../images/choose3.svg";
 import ChooseFour from "../images/choose3.svg";
+import aboutus1 from "../images/aboutus1.svg";
 
 export {
   Logo,
@@ -28,4 +29,5 @@ export {
   ChooseTwo,
   ChooseThree,
   ChooseFour,
+  aboutus1,
 };

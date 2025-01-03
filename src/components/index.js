@@ -10,3 +10,5 @@ export { default as Navbar } from "./Navigation/Navbar";
 export { default as MobileNav } from "./Navigation/MobileNav";
 export { default as ProcessHeader } from "./Process/ProcessHeader";
 export { default as ProcessBody } from "./Process/ProcessBody";
+export { default as AboutBody } from "./About/AboutBody";
+export { default as AboutHeader } from "./About/AboutHeader";
