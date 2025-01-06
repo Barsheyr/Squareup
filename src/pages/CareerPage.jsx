@@ -1,7 +1,13 @@
 import React from "react";
+import { CareerBody, CareerHeader } from "../components";
 
 const CareerPage = () => {
-  return <div>CareerPage</div>;
+  return (
+    <div className="text-white">
+      <CareerBody />
+      <CareerHeader />
+    </div>
+  );
 };
 
 export default CareerPage;

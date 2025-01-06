@@ -3,6 +3,7 @@ import { Logo } from "../assets/images";
 import NavLinks from "../components/Navigation/NavLinks";
 import { NavLink } from "react-router-dom";
 import { FaTwitter, FaFacebook, FaLinkedin } from "react-icons/fa";
+const currentYear = new Date().getFullYear();
 
 const Footer = () => {
   return (
@@ -33,6 +34,20 @@ const Footer = () => {
           <div>
             <FaLinkedin color="#B1FF33" size={30} />
           </div>
+        </div>
+      </div>
+
+      <div className="flex flex-row items-center justify-between mt-20">
+        <div className="flex items-center gap-5">
+          <p> hello@squareup.com </p>
+          <p> +234 7069515411 </p>
+          <p> Lagos, Nigeria </p>
+        </div>
+
+        <div>
+          <p className="text-sm">
+            &copy; {currentYear} SquareUp. All rights reserved.
+          </p>
         </div>
       </div>
     </div>

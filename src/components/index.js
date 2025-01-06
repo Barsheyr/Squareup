@@ -12,3 +12,5 @@ export { default as ProcessHeader } from "./Process/ProcessHeader";
 export { default as ProcessBody } from "./Process/ProcessBody";
 export { default as AboutBody } from "./About/AboutBody";
 export { default as AboutHeader } from "./About/AboutHeader";
+export { default as CareerHeader } from "./Career/CareerHeader";
+export { default as CareerBody } from "./Career/CareerBody";

@@ -224,6 +224,19 @@ export const Processes = [
   },
 ];
 
+export const Careers = [
+  {
+    id: "1",
+    Header: "Welcome to SquareUp, where talent meets opportunity",
+    paragraph:
+      "At SquareUp, we believe that the success of our agency lies in the talent, passion, and dedication of our team members. We are a digital product agency that thrives on innovation, creativity, and collaboration. If you're ready to make a difference and contribute to cutting-edge projects, we invite you to explore career opportunities with us.",
+    includes: "Why Work at SquareUp ?",
+    Text1: "User Experience (UX) Design",
+    Text2: "User Experience (UI) Design",
+    Text3: "Branding and Identity",
+  },
+];
+
 export const processNums = [
   {
     id: "1",
@@ -273,5 +286,45 @@ export const processNums = [
     numHead: "Continuous Improvement  ",
     numParagraph:
       " We begin by thoroughly understanding your business goals, target audience, and project requirements. We conduct in-depth research to gather insights and define project objectives, allowing us to develop a tailored strategy.",
+  },
+];
+
+export const aboutNums = [
+  {
+    id: "1",
+    num: "1",
+    numHead: "Design",
+    numParagraph:
+      "Once upon a time, in a world driven by technology, a group of talented designers came together with a shared vision. They believed that design could shape the way people interacted with digital products. With their passion for aesthetics and usability, they founded SquareUp Digital Product Agency's design department. Their mission was to create visually stunning and user-friendly interfaces that would leave a lasting impression.",
+  },
+  {
+    num: "2",
+    numHead: "Engineering",
+    numParagraph:
+      "Meanwhile, a team of brilliant engineers was busy crafting the backbone of digital innovation. With their expertise in coding and development, they founded the engineering division of SquareUp. They believed that technology had the power to transform ideas into reality. Their mission was to build robust, scalable, and cutting-edge digital solutions that would push the boundaries of what was possible.",
+  },
+  {
+    num: "3",
+    numHead: "Project Management",
+    numParagraph:
+      "In the midst of the creative and technical minds, a group of project managers emerged as the glue that held everything together. They understood the importance of effective communication, organization, and efficient execution. With their skills in planning and coordination, they founded SquareUp's project management team. Their mission was to ensure that every project ran smoothly, on time, and within budget.",
+  },
+  {
+    num: "4",
+    numHead: "Collaboration",
+    numParagraph:
+      "At SquareUp, these three departments came together to form a cohesive and collaborative unit. They embraced the power of collaboration and recognized that their combined expertise would result in truly exceptional digital products. They believed that by working closely with their clients, understanding their needs, and involving them in the creative process, they could deliver solutions that surpassed expectations.",
+  },
+  {
+    num: "5",
+    numHead: "Client-Centric Approach",
+    numParagraph:
+      "SquareUp's success was not solely measured by their technical prowess or design skills but by their unwavering commitment to their clients. They placed their clients at the center of everything they did. They took the time to listen, understand their unique challenges, and tailor their services to meet their specific requirements. Their mission was to become trusted partners, guiding businesses on their digital journey.",
+  },
+  {
+    num: "6",
+    numHead: "Driving Success ",
+    numParagraph:
+      "With each project, SquareUp's reputation grew. Their portfolio expanded to include a diverse range of industries and their impact was felt far and wide. From startups to established enterprises, businesses sought out SquareUp for their expertise in creating digital products that delivered tangible results. SquareUp's success was driven by their passion for innovation, their dedication to quality, and their commitment to helping their clients succeed in the digital world.",
   },
 ];
