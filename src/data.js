@@ -328,3 +328,30 @@ export const aboutNums = [
       "With each project, SquareUp's reputation grew. Their portfolio expanded to include a diverse range of industries and their impact was felt far and wide. From startups to established enterprises, businesses sought out SquareUp for their expertise in creating digital products that delivered tangible results. SquareUp's success was driven by their passion for innovation, their dedication to quality, and their commitment to helping their clients succeed in the digital world.",
   },
 ];
+
+export const CareerBodyOnes = [
+  {
+    num: "1",
+    numHead: "Innovative and Impactful Projects",
+    numParagraph:
+      "At SquareUp, you'll have the opportunity to work on exciting and impactful projects that shape the digital landscape. From designing intuitive user interfaces to developing robust software solutions, you'll be part of a team that creates products that make a difference.",
+  },
+  {
+    num: "2",
+    numHead: "Supportive Environment",
+    numParagraph:
+      "At SquareUp, you'll have the opportunity to work on exciting and impactful projects that shape the digital landscape. From designing intuitive user interfaces to developing robust software solutions, you'll be part of a team that creates products that make a difference.",
+  },
+  {
+    num: "3",
+    numHead: "Continuous Learning and Growth",
+    numParagraph:
+      "We believe in investing in our team's growth and development. We provide opportunities for continuous learning, whether it's through workshops, training programs, or attending industry conferences. At SquareUp, you'll have the chance to expand your skill set and stay up-to-date with the latest trends and technologies..",
+  },
+  {
+    num: "4",
+    numHead: "Challenging and Rewarding Work",
+    numParagraph:
+      "Our projects are challenging, but the rewards are even greater. We tackle complex problems and push ourselves to deliver innovative solutions. You'll be empowered to take ownership of your work, make a real impact, and see your ideas come to life.",
+  },
+];
