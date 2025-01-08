@@ -355,3 +355,34 @@ export const CareerBodyOnes = [
       "Our projects are challenging, but the rewards are even greater. We tackle complex problems and push ourselves to deliver innovative solutions. You'll be empowered to take ownership of your work, make a real impact, and see your ideas come to life.",
   },
 ];
+
+export const CareerOpenings = [
+  {
+    id: "1",
+    TextHeader: "Design Job Openings",
+    TextH1: "UI Designer",
+    TextH2: "UX Designer",
+    TextH3: "Design Head",
+    TextPara1:
+      "Bring your creativity and expertise to our team as a UI Designer. Collaborate with cross-functional teams to design visually stunning and user-friendly interfaces. Utilize your skills in layout design, typography, and color theory to create engaging digital experiences that leave a lasting impression.",
+    TextPara2:
+      "Join us as a UX Designer and help shape exceptional user experiences. Conduct user research, analyze data, and create wireframes and prototypes to design intuitive and user-centric interfaces. Collaborate closely with UI Designers, developers, and stakeholders to ensure seamless and enjoyable user journeys.",
+    TextPara3:
+      "Lead our design team as a Design Head and drive the creative vision of our products. Provide strategic direction, mentorship, and guidance to UI and UX designers. Collaborate with cross-functional teams to ensure design consistency and elevate our brand identity through innovative and visually impactful designs.",
+    Btn: "Apply Now",
+  },
+  {
+    id: "2",
+    TextHeader: "Development Job Openings",
+    TextH1: "Frontend Developer ",
+    TextH2: "Back-end Developer",
+    TextH3: "Design Head",
+    TextPara1:
+      "Bring your creativity and expertise to our team as a UI Designer. Collaborate with cross-functional teams to design visually stunning and user-friendly interfaces. Utilize your skills in layout design, typography, and color theory to create engaging digital experiences that leave a lasting impression.",
+    TextPara2:
+      "Join us as a UX Designer and help shape exceptional user experiences. Conduct user research, analyze data, and create wireframes and prototypes to design intuitive and user-centric interfaces. Collaborate closely with UI Designers, developers, and stakeholders to ensure seamless and enjoyable user journeys.",
+    TextPara3:
+      "Lead our design team as a Design Head and drive the creative vision of our products. Provide strategic direction, mentorship, and guidance to UI and UX designers. Collaborate with cross-functional teams to ensure design consistency and elevate our brand identity through innovative and visually impactful designs.",
+    Btn: "Apply Now",
+  },
+];

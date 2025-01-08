@@ -1,17 +1,17 @@
 import React from "react";
 import { Logo } from "../../assets/images";
-import { CareerBodyOnes } from "../../data";
+import { CareerBodyOnes, CareerOpenings } from "../../data";
 
 const CareerHeader = () => {
   return (
     <div>
-      <div className="grid grid-cols-2 gap-20 mt-20">
+      <div className="grid grid-cols-2 gap-20 mt-32">
         {CareerBodyOnes.map((CareerBodyOne, index) => {
           const { numHead, numParagraph } = CareerBodyOne;
 
           return (
             <div key={index}>
-              <div className="space-y-3">
+              <div className="space-y-10">
                 <h1 className="text-3xl font-semibold text-green80">
                   {numHead}
                 </h1>
@@ -22,16 +22,63 @@ const CareerHeader = () => {
         })}
       </div>
 
-      <div>
-        <div>
+      <div className="mt-32">
+        <div className="space-y-5">
           <h1 className="text-3xl font-semibold"> Current Openings </h1>
           <p>
             We are always on the lookout for talented individuals who are
             passionate about creating exceptional digital experiences. Whether
             you're a designer, engineer, project manager, or have skills that
             align with our agency's mission, we encourage you to explore our
-            open positions. s
+            open positions.
           </p>
+        </div>
+
+        <div>
+          {CareerOpenings.map((CareerOpening, index) => {
+            const {
+              TextHeader,
+              TextH1,
+              TextH2,
+              TextH3,
+              TextPara1,
+              TextPara2,
+              TextPara3,
+              Btn,
+            } = CareerOpening;
+
+            return (
+              <div>
+                <div className="mt-20">
+                  <h1 className="text-3xl"> {TextHeader} </h1>
+
+                  <div className="grid grid-cols-3 mt-5 gap-5">
+                    <div className="space-y-5">
+                      <h2 className="text-xl font-semibold"> {TextH1} </h2>
+                      <p> {TextPara1} </p>
+                      <div className="btn w-full border-none  bg-grey15 hover:bg-green50 hover:text-black">
+                        {Btn}
+                      </div>
+                    </div>
+                    <div className="space-y-5">
+                      <h2 className="text-xl font-semibold"> {TextH2} </h2>
+                      <p> {TextPara2} </p>
+                      <div className="btn w-full border-none  bg-grey15 hover:bg-green50 hover:text-black">
+                        {Btn}
+                      </div>
+                    </div>
+                    <div className="space-y-5">
+                      <h2 className="text-xl font-semibold"> {TextH3} </h2>
+                      <p> {TextPara3} </p>
+                      <div className="btn w-full border-none  bg-grey15 hover:bg-green50 hover:text-black">
+                        {Btn}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
 
