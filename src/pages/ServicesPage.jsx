@@ -93,15 +93,15 @@ const ServicesPage = () => {
                           <p className="text-md">{IconText5}</p>
                         </div>
                         <div className="border border-gray-800 px-10 py-5 space-y-5">
-                          <img src={img1} alt="" className="w-14" />
+                          <img src={img2} alt="" className="w-14" />
                           <p className="text-md">{IconText6}</p>
                         </div>
                         <div className="border border-gray-800 px-10 py-5 space-y-5">
-                          <img src={img1} alt="" className="w-14" />
+                          <img src={img3} alt="" className="w-14" />
                           <p className="text-md">{IconText7}</p>
                         </div>
                         <div className="border border-gray-800 px-10 py-5 space-y-5">
-                          <img src={img1} alt="" className="w-14" />
+                          <img src={img4} alt="" className="w-14" />
                           <p className="text-md">{IconText8}</p>
                         </div>
                       </div>
@@ -116,15 +116,15 @@ const ServicesPage = () => {
                           <p className="text-md">{IconText9}</p>
                         </div>
                         <div className="border border-gray-800 px-10 py-5 space-y-5">
-                          <img src={img1} alt="" className="w-14" />
+                          <img src={img2} alt="" className="w-14" />
                           <p className="text-md">{IconText10}</p>
                         </div>
                         <div className="border border-gray-800 px-10 py-5 space-y-5">
-                          <img src={img1} alt="" className="w-14" />
+                          <img src={img3} alt="" className="w-14" />
                           <p className="text-md">{IconText11}</p>
                         </div>
                         <div className="border border-gray-800 px-10 py-5 space-y-5">
-                          <img src={img1} alt="" className="w-14" />
+                          <img src={img4} alt="" className="w-14" />
                           <p className="text-md">{IconText12}</p>
                         </div>
                       </div>

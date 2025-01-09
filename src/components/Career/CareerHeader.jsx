@@ -48,11 +48,11 @@ const CareerHeader = () => {
             } = CareerOpening;
 
             return (
-              <div>
-                <div className="mt-20">
+              <div key={index}>
+                <div className="mt-32">
                   <h1 className="text-3xl"> {TextHeader} </h1>
 
-                  <div className="grid grid-cols-3 mt-5 gap-5">
+                  <div className="grid grid-cols-3 mt-20 gap-5">
                     <div className="space-y-5">
                       <h2 className="text-xl font-semibold"> {TextH1} </h2>
                       <p> {TextPara1} </p>
@@ -82,7 +82,7 @@ const CareerHeader = () => {
         </div>
       </div>
 
-      <div className="mt-20">
+      <div className="mt-32">
         <div className="flex flex-row justify-center items-center gap-20">
           <div>
             <img src={Logo} alt="" className="w-52" />
