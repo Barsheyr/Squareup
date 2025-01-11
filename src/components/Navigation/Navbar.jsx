@@ -6,12 +6,11 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="align-element flex items-center justify-between py-5 text-white font-primary">
-      <div className="flex items-center justify-between gap-3">
-        <NavLink to="/" className="">
+      <div>
+        <NavLink to="/" className="flex items-center justify-between gap-3">
           <img src={Logo} alt="Logo" />
+          <h1 className="text-lg font-semibold"> SquareUp </h1>
         </NavLink>
-
-        <h1 className="text-lg font-semibold"> SquareUp </h1>
       </div>
 
       <div className="hidden lg:flex">

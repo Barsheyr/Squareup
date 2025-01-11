@@ -3,6 +3,7 @@ export { default as Cto } from "./Hero/CTO";
 export { default as Faq } from "./Hero/Faq";
 export { default as Services } from "./Hero/Services";
 export { default as WhatClientSay } from "./Hero/WhatClientSay";
+export { default as ContactForm } from "./Hero/ContactForm";
 export { default as WhyChoose } from "./Hero/WhyChoose";
 export { default as Footer } from "./Footer";
 export { default as ErrorElement } from "./ErrorElement";

@@ -6,6 +6,7 @@ import {
   WhyChoose,
   Cto,
   Services,
+  ContactForm,
 } from "../components";
 
 const Landing = () => {
@@ -17,6 +18,7 @@ const Landing = () => {
       <WhatClientSay />
       <Faq />
       <Cto />
+      <ContactForm />
     </section>
   );
 };
