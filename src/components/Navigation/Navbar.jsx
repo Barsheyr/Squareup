@@ -19,9 +19,11 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div className="btn bg-green50 border-none text-black hover:bg-green99">
-        Contact Us
-      </div>
+      <NavLink to="/contactPage">
+        <div className="btn bg-green50 border-none text-black hover:bg-green99">
+          Contact Us
+        </div>
+      </NavLink>
     </div>
   );
 };

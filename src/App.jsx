@@ -8,6 +8,7 @@ import {
   WorkPage,
   ProcessPage,
   CareerPage,
+  ContactPage,
 } from "./pages";
 
 import { ErrorElement } from "./components";
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
       {
         path: "/careers",
         element: <CareerPage />,
+      },
+      {
+        path: "/contactPage",
+        element: <ContactPage />,
       },
     ],
   },
