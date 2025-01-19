@@ -14,7 +14,7 @@ const MobileNav = () => {
   ];
 
   return (
-    <div className="relative">
+    <div className="relative lg:hidden ">
       {/* Hamburger Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}

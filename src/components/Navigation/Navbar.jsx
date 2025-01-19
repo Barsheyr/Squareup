@@ -21,12 +21,6 @@ const Navbar = () => {
           <NavLinks />
         </ul>
       </div>
-
-      <NavLink to="/contactPage" className="hidden lg:flex">
-        <div className="btn bg-green50 border-none text-black hover:bg-green99">
-          Contact Us
-        </div>
-      </NavLink>
     </div>
   );
 };

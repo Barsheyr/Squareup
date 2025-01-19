@@ -11,11 +11,14 @@ const links = [
 
 const NavLinks = () => {
   return (
-    <div className="flex ">
+    <div className="flex space-x-5 ">
       {links.map((link) => {
         const { id, url, text } = link;
         return (
-          <li key={id} className="hover:bg-green50 hover:text-black rounded-md">
+          <li
+            key={id}
+            className="btn text-white border-none hover:text-black hover:bg-green99"
+          >
             <NavLink className="capitalize" to={url}>
               {text}
             </NavLink>
