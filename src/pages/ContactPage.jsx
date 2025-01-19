@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { faqs } from "../data";
+import { Logo } from "../assets/images";
 
 const ContactPage = () => {
   const [budget, setBudget] = useState([1000, 5000]);
@@ -19,7 +20,7 @@ const ContactPage = () => {
             <h1 className="text-4xl font-semibold tracking-widest">
               Contact Us
             </h1>
-            <p className="px-72">
+            <p className="lg:px-72 px-10">
               Get in touch with us today and let us help you with any questions
               or inquiries you may have.
             </p>
@@ -28,7 +29,7 @@ const ContactPage = () => {
       </div>
 
       {/* contact */}
-      <div className="min-h-screen bg-black flex items-center justify-center">
+      <div className="min-h-screen bg-black flex items-center justify-center mt-20">
         <form className="w-full max-w-lg bg-grey15 p-8 rounded-lg space-y-6 text-white">
           {/* Full Name */}
           <div className="grid grid-cols-2 gap-4 bg-grey20 rounded-md p-2">
@@ -133,9 +134,8 @@ const ContactPage = () => {
       </div>
 
       {/* FAQ */}
-
       <div>
-        <div className="text-center py-20 space-y-5 z-10 mt-10">
+        <div className="text-center space-y-5 z-10 text-white mt-20">
           <h1 className="text-4xl font-semibold tracking-widest">
             Frequently Asked Questions
           </h1>
@@ -165,7 +165,7 @@ const ContactPage = () => {
                         <p>{Header}</p>
                       </div>
                       <div className="collapse-content">
-                        <p className="px-14 lg:text-base text-sm">
+                        <p className="px-14 lg:text-base text-sm text-white">
                           {description}
                         </p>
                       </div>
@@ -173,6 +173,43 @@ const ContactPage = () => {
                   </div>
                 );
               })}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* CTO */}
+      <div className="mt-20">
+        <div className="flex flex-row justify-center items-center gap-20">
+          <div>
+            <img src={Logo} alt="" className="w-52" />
+          </div>
+
+          <div className="space-y-5">
+            <h1 className="text-grey60 text-2xl">
+              Today, SquareUp Continues to Thrive as a Leading Digital Product
+              Agency......
+            </h1>
+            <p className="text-grey60">
+              Combining the power of design, engineering, and project management
+              to create transformative digital experiences. They invite you to
+              join them on their journey and discover how they can help bring
+              your digital ideas to life.
+            </p>
+          </div>
+        </div>
+
+        <div className="bg-grey15 px-20 py-5 rounded-md mt-10">
+          <div className="flex flex-row items-center justify-between">
+            <h1 className="text-white"> Welcome to SquareUp</h1>
+            <div className="bg-grey30 px-5 rounded-md">
+              <h1 className="py-3">
+                Where collaboration, Expertise, and Client-Centricity Intersect
+                to Shape the Future of Digital Innovation.
+              </h1>
+            </div>
+            <div className="btn border-none  hover:bg-grey15 bg-green50 text-black hover:text-white">
+              Start Project
             </div>
           </div>
         </div>

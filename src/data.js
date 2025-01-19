@@ -8,6 +8,16 @@ import serviceicon1 from "../src/assets/images/serviceicon1.svg";
 import serviceicon2 from "../src/assets/images/serviceicon2.svg";
 import serviceicon3 from "../src/assets/images/serviceicon3.svg";
 import serviceicon4 from "../src/assets/images/serviceicon4.svg";
+import work1 from "../src/assets/images/works1.png";
+import work2 from "../src/assets/images/works2.png";
+import work3 from "../src/assets/images/works3.png";
+import work4 from "../src/assets/images/works4.png";
+import work5 from "../src/assets/images/works5.png";
+import work6 from "../src/assets/images/works6.png";
+import work7 from "../src/assets/images/works7.png";
+import work8 from "../src/assets/images/works8.png";
+import work9 from "../src/assets/images/works9.png";
+import work10 from "../src/assets/images/works10.png";
 
 export const whatClientSays = [
   {
@@ -420,5 +430,111 @@ export const CareerOpenings = [
     TextPara3:
       "Be part of our team as a Manual Tester and perform comprehensive manual testing to ensure the quality and functionality of our software applications. Develop test cases, execute test scripts, and document test results. Collaborate with developers and QA testers to troubleshoot issues and enhance software performance.",
     Btn: "Apply Now",
+  },
+];
+
+export const Works = [
+  {
+    id: "1",
+    Header: "At SquareUp",
+    paragraph:
+      "We have had the privilege of working with diverse range of clients and delivering exceptional digital products that drive success.",
+    includes: "Here are the ten examples of our notable works:",
+    Text1: "User Experience (UX) Design",
+    Text2: "User Experience (UI) Design",
+    Text3: "Branding and Identity",
+  },
+];
+
+export const Worksbodys = [
+  {
+    id: "1",
+    HeaderOne: "E-Commerce Platform for Fashion Hub",
+    paragraph:
+      "We developed a visually stunning and user-friendly e-commerce platform for Chic Boutique, a renowned fashion retailer. The platform featured seamless product browsing, secure payment integration, and personalized recommendations, resulting in increased online sales and customer satisfaction.",
+    HeaderTwo: "Chic Boutique",
+    Link: "https://chicboutique.com",
+    img: work1,
+  },
+  {
+    id: "2",
+    HeaderOne: "Mobile App for Food Delivery Service",
+    paragraph:
+      "HungryBites approached us to create a mobile app that streamlined their food delivery service. The app included features like real-time order tracking, easy menu customization, and secure payment options, resulting in improved customer convenience and operational efficiency.*",
+    HeaderTwo: "HungryBites",
+    Link: "https://hungrybites.com",
+    img: work2,
+  },
+  {
+    id: "3",
+    HeaderOne: "Booking and Reservation System for Event Management",
+    paragraph:
+      "EventMasters required a comprehensive booking and reservation system for their event management services. We designed a user-friendly platform that allowed seamless event registration, ticketing, and attendee management, resulting in streamlined processes and enhanced customer experiences.",
+    HeaderTwo: "EventMasters",
+    Link: "https://eventmasters.com",
+    img: work3,
+  },
+  {
+    id: "4",
+    HeaderOne: "Custom Software for Workflow Automation",
+    paragraph:
+      "HungryBites approached us to create a mobile app that streamlined their food delivery service. The app included features like real-time order tracking, easy menu customization, and secure payment options, resulting in improved customer convenience and operational efficiency.",
+    HeaderTwo: "ProTech Solutions",
+    Link: "https://protechsolutions.com",
+    img: work4,
+  },
+  {
+    id: "5",
+    HeaderOne: "Web Portal for Real Estate Listings",
+    paragraph:
+      "Dream Homes Realty wanted an intuitive web portal for showcasing their property listings. We created a visually appealing platform with advanced search filters, virtual tours, and a user-friendly interface, enabling potential buyers to find their dream homes easily.",
+    HeaderTwo: "Dream Homes Realty",
+    Link: "https://dreamhomesreality.com",
+    img: work5,
+  },
+  {
+    id: "6",
+    HeaderOne: "Mobile App for Fitness Tracking",
+    paragraph:
+      "FitLife Tracker approached us to develop a mobile app that tracked fitness activities and provided personalized workout plans. The app included features such as activity tracking, progress monitoring, and social sharing, empowering users to lead healthier lifestyles.",
+    HeaderTwo: "FitLite Tracker",
+    Link: "https://fitlitetracker.com",
+    img: work6,
+  },
+  {
+    id: "7",
+    HeaderOne: "Custom Software for Supply Chain Management",
+    paragraph:
+      "Global Logistics Solutions required a custom software solution to streamline their supply chain operations. We developed a scalable system that optimized inventory management, automated order processing, and enhanced logistics tracking, resulting in improved efficiency and reduced costs.",
+    HeaderTwo: "Global Logistics Solutions",
+    Link: "https://globallogisticssolutions.com",
+    img: work7,
+  },
+  {
+    id: "8",
+    HeaderOne: "Educational Platform for Online Learning",
+    paragraph:
+      "EduConnect sought an educational platform to facilitate online learning. We developed an interactive platform with virtual classrooms, multimedia content, and student progress tracking, providing a seamless and engaging learning experience for students of all ages.",
+    HeaderTwo: "EduConnect",
+    Link: "https://educonnect.com",
+    img: work8,
+  },
+  {
+    id: "9",
+    HeaderOne: "Mobile App for Travel Planning",
+    paragraph:
+      "WanderWise wanted a mobile app that simplified travel planning and discovery. We developed an app with features like personalized itineraries, destination guides, and integrated booking options, making it easier for travelers to explore new destinations.",
+    HeaderTwo: "WanderWise",
+    Link: "https://wanderwise.com",
+    img: work9,
+  },
+  {
+    id: "10",
+    HeaderOne: "Web Application for Custom Relationship  Management",
+    paragraph:
+      "ConnectCRM needed a web application to manage their customer relationships effectively. We developed a feature-rich CRM platform with lead management, communication tracking, and data analytics, enabling businesses to nurture customer relationships and drive growth.",
+    HeaderTwo: "ConnectCRM",
+    Link: "https://connectcrm.com",
+    img: work10,
   },
 ];

@@ -15,3 +15,4 @@ export { default as AboutBody } from "./About/AboutBody";
 export { default as AboutHeader } from "./About/AboutHeader";
 export { default as CareerHeader } from "./Career/CareerHeader";
 export { default as CareerBody } from "./Career/CareerBody";
+export { default as WorksBody } from "./Works/WorkBody";
