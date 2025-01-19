@@ -5,7 +5,7 @@ import { CareerBodyOnes, CareerOpenings } from "../../data";
 const CareerHeader = () => {
   return (
     <div>
-      <div className="grid grid-cols-2 gap-20 mt-32">
+      <div className="grid lg:grid-cols-2 gap-20 mt-32">
         {CareerBodyOnes.map((CareerBodyOne, index) => {
           const { numHead, numParagraph } = CareerBodyOne;
 
@@ -34,7 +34,7 @@ const CareerHeader = () => {
           </p>
         </div>
 
-        <div>
+        <div className="">
           {CareerOpenings.map((CareerOpening, index) => {
             const {
               TextHeader,
@@ -52,7 +52,7 @@ const CareerHeader = () => {
                 <div className="mt-32">
                   <h1 className="text-3xl"> {TextHeader} </h1>
 
-                  <div className="grid grid-cols-3 mt-20 gap-5">
+                  <div className="grid lg:grid-cols-3 mt-20 gap-5">
                     <div className="space-y-5">
                       <h2 className="text-xl font-semibold"> {TextH1} </h2>
                       <p> {TextPara1} </p>
@@ -83,12 +83,12 @@ const CareerHeader = () => {
       </div>
 
       <div className="mt-32">
-        <div className="flex flex-row justify-center items-center gap-20">
+        <div className="flex lg:flex-row flex-col justify-center items-center gap-20">
           <div>
-            <img src={Logo} alt="" className="w-52" />
+            <img src={Logo} alt="" className="lg:w-52 w-32" />
           </div>
 
-          <div className="space-y-5">
+          <div className="space-y-5 ">
             <h1 className="text-grey60 text-2xl">
               Today, SquareUp Continues to Thrive as a Leading Digital Product
               Agency......
@@ -103,7 +103,7 @@ const CareerHeader = () => {
         </div>
 
         <div className="bg-grey15 px-20 py-5 rounded-md mt-10">
-          <div className="flex flex-row items-center justify-between">
+          <div className="flex lg:flex-row flex-col space-y-5 items-center justify-between">
             <h1> Welcome to SquareUp</h1>
             <div className="bg-grey30 px-5 rounded-md">
               <h1 className="py-3">
@@ -111,7 +111,7 @@ const CareerHeader = () => {
                 to Shape the Future of Digital Innovation.
               </h1>
             </div>
-            <div className="btn border-none  hover:bg-grey15 bg-green50 text-black hover:text-white">
+            <div className="btn border-none w-full  hover:bg-grey15 bg-green50 text-black hover:text-white">
               Start Project
             </div>
           </div>
